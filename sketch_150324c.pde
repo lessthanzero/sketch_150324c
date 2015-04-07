@@ -10,8 +10,6 @@ void setup()
  myPort = new Serial(this, "/dev/tty.usbmodem1411", 9600);
 }
 
-// foobar
-
 void draw()
 {
  if ( myPort.available() > 0)  // If data is available,
